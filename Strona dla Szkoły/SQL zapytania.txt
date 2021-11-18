@@ -1,0 +1,2 @@
+Pobieranie informacji o książce:
+SELECT ksiazki.Tytul,ksiazki.Autor,ksiazki.Gatunek,ksiazki.Zdjecie, opinie.Streszczenie,opinie.Opinia,opinie.Ocena FROM ksiazki INNER JOIN opinie ON ksiazki.Id_ksiazki = opinie.Id_ksiazki; 
